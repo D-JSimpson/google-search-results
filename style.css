@@ -208,6 +208,9 @@ main{
     margin-bottom: 0;
     margin-top: 0;
 }
+.also-search{
+    position: relative;
+}
 #also-search-img{
     transform: rotate(180deg);
 }
@@ -218,9 +221,16 @@ main{
     align-items: center;
     border: 1px solid gray;
     border-radius: 1000px;
-    width: 30%;
+    width: 50%;
     height: 50px;
     justify-content: center;
     text-decoration: none;
     color: blue;
+}
+#search-related{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 350px 350px;
+    grid-template-rows:  50px 50px 50px 50px;
+    
 }
